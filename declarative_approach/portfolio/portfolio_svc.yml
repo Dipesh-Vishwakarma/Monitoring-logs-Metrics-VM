@@ -4,7 +4,7 @@ metadata:
   name: portfolio-webapp-service
 spec:
   selector:
-    app: portfolio-webapp
+    app: web-app
   ports:
   - port: 5000
     targetPort: 5000
