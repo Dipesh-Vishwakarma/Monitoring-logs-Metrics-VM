@@ -15,9 +15,9 @@ spec:
     spec:
       containers:
       - name: portfolio-webapp
-        image: dipesh767/web-application:v1
+        image: amitabhdevops/online_shop:latest
         ports:
-        - containerPort: 5000
+        - containerPort: 3000
         resources:
           requests:
             memory: "128Mi"
